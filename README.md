@@ -4,6 +4,8 @@ A small, friendly desktop tool for talking to Modbus devices over **RTU (serial)
 Built with Python, [PySide6](https://doc.qt.io/qtforpython/), and [`pymodbus`](https://github.com/pymodbus-dev/pymodbus).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/shakiltanvir/modbus_desktop_tool_opensource?label=download)](https://github.com/shakiltanvir/modbus_desktop_tool_opensource/releases/latest)
+[![CI](https://github.com/shakiltanvir/modbus_desktop_tool_opensource/actions/workflows/ci.yml/badge.svg)](https://github.com/shakiltanvir/modbus_desktop_tool_opensource/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 
@@ -15,6 +17,12 @@ Built with Python, [PySide6](https://doc.qt.io/qtforpython/), and [`pymodbus`](h
 - Write single or multiple registers
 - Polling for read functions
 - Response summary, value table, and raw response log
+
+## Download
+
+Grab the latest standalone Windows executable — no Python install required — from the
+**[Releases page](https://github.com/shakiltanvir/modbus_desktop_tool_opensource/releases/latest)**
+(download `ModbusApp.exe`). Or build it yourself / run from source below.
 
 ## Requirements
 
