@@ -1,0 +1,13 @@
+# Normalize line endings: let git handle conversion, store LF in the repo
+* text=auto
+
+# Always-text sources
+*.py    text
+*.md    text
+*.txt   text
+*.ps1   text eol=crlf
+
+# Binary assets (never touch line endings)
+*.png   binary
+*.ico   binary
+*.exe   binary
